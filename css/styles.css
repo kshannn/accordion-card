@@ -67,7 +67,7 @@ button {
 
 .accordion {
 	background-color: #fff;
-	color: grey;
+	color: hsl(240, 6%, 50%);
 	cursor: pointer;
 	width: 100%;
 	text-align: left;
@@ -96,11 +96,11 @@ button {
 /* Style the accordion panel. Note: hidden by default */
 .panel {
   background-color: #fff;
-  color:grey;
+  color:hsl(240, 6%, 50%);
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
-  border-bottom: 1px solid #D3D3D3;
+  border-bottom: 1px solid hsl(240, 5%, 91%);
 }
 
 /*Accordion icons*/
